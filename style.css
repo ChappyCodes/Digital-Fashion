@@ -148,7 +148,7 @@ body{
         margin: 0;
     }
     .top{
-        height: 4.5%;
+        height: 6vh;
         width: 100vw;
         background-color: #59545423;
         font-size: 0.4rem;
@@ -173,7 +173,7 @@ body{
     flex-direction: column;
   }
   .img{
-    margin-top: 80%;
+    margin-top: 50vh;
     align-self: center;
     width: 50%;
     height: 30%;
