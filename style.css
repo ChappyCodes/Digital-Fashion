@@ -1,0 +1,214 @@
+html{
+    margin: 0;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    background-color:  #1c1a1a;
+    scroll-behavior: smooth;
+}
+.top{
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    background-color:  #1c1a1a;
+    position: fixed;
+}
+
+.digital{
+    color: #fff;
+    font-size: 0.6rem;
+    margin-left: 15rem;
+}
+
+.moyo{
+    color: #fff;
+    font-size: 0.6rem;
+    margin-left: 15rem;
+}
+
+.dot{
+    color: #fff;
+    font-size: 0.8rem;
+    margin-right: 15rem;
+}
+.pink-dot{
+    color: #ffc0cb;
+    font-size: 1.2rem;
+    margin-right: 15rem;
+}
+.middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-attachment: fixed;
+    position: relative fixed;
+}
+.img{
+    margin-top: 100vh;
+    height: 55vh;
+    width: 20vw;
+    background-image: url("./diego-sanchez-MSi-8HeDSUs-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    position: fixed;
+}
+
+.img:hover{
+    background-image:url("./mahdi-chaghari-RfOBNTnDmJc-unsplash.jpg");
+    transition: 1.5s ease  all;
+    cursor: zoom-in;
+}
+.words{
+    margin-top: 98vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.where{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    font-size: 12rem;
+    color: #fff;
+    margin: -1.2rem;
+}
+.dig{
+    font-family: ;
+    margin: -1.2rem;
+    font-size: 12rem;
+    color: #fff;
+    position: relative;
+
+}
+.meets{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: -1.2rem;
+    font-size: 12rem;
+    color: #fff;
+}
+
+.pic-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+    position: relative;
+}
+.pic1{
+    background-image: url("./good-faces-tJfpD2AnXyQ-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    width: 25vw;
+    border-radius: 15px;
+    margin-left: 2rem;
+}
+.pic1:hover{
+    height: 85vh;
+    width: 30vw;
+    transition: 1.5s;
+}
+.pic2{
+    background-image: url("./vvvv.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    width: 25vw;
+    border-radius: 15px;
+}
+.pic2:hover{
+    height: 85vh;
+    width: 30vw;
+    transition: ease-in-out 1s ;
+}
+.pic3{
+    background-image: url("./khaled-ghareeb-QN507MdnxRQ-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    width: 25vw;
+    border-radius: 15px;
+    margin-right: 2rem;
+}
+.pic3:hover{
+    height: 85vh;
+    width: 30vw;
+    transition: 1.5s;
+}
+@media only screen and (max-width: 600px) {
+    body{
+        overflow-x: hidden;
+        margin: 0;
+    }
+    .top{
+        height: 4.5%;
+        width: 100vw;
+        background-color: #59545423;
+        font-size: 0.4rem;
+        position: fixed;
+        display: flex;
+        
+    }
+  .digital{
+    margin-left: 0%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .dot{
+    margin-right: 50%;
+  }
+  .middle{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .img{
+    margin-top: 80%;
+    align-self: center;
+    width: 20%;
+    height: 20%;
+  }
+  .words{
+    margin-top: 36vh;
+  }
+.where{
+    font-size: 5rem;
+    margin-top: 0.5%;
+}
+.dig{
+    font-size: 5rem;
+    margin-top: 0.5%;
+}
+.meets{
+    font-size: 5rem;
+    margin-top: 0.5%;
+}
+.pic-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1c1a1a;
+}
+.pic1, .pic2, .pic3{
+    height: 70vh;
+    width: 45vh;
+    margin: 6%;
+}
+.pic1:hover, .pic2:hover, .pic3:hover{
+    height: 80vh;
+    width: 50vh;
+    margin: 6%;
+    transition: 0.8s ease-in-out;
+}
+}
